@@ -4,7 +4,7 @@ var API_KEY = "c2578a153581121ab6e1a4c1a39874b5:19:70154108";
 
 var API = "http://api.nytimes.com/svc/topstories/v1/" + section + ".json?api-key=" + API_KEY;
 
-
+/*run the news API data!*/
 function run() {
 
 //asking server for data
@@ -23,7 +23,7 @@ $.get(API, function(response) {
 });
 
 }
-
+/*parses the news data*/
 function parseData(results) {
 		
 		var news_array = ["Goodmorning! Here are the top stories for today"]
@@ -35,6 +35,7 @@ function parseData(results) {
 		console.log(results);
 
 }
+
 
 
 
