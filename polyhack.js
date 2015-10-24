@@ -1,5 +1,5 @@
 /* LETS get some news data */
-var section = "politics";
+var section = "sports";
 var NEWS_API_KEY = "c2578a153581121ab6e1a4c1a39874b5:19:70154108";
 var WEATHER_API_KEY = "880dc535d1197dd2e77735d503a4185e";
 var BECKY_API = "https://pacific-lake-4279.herokuapp.com";
